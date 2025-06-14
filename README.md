@@ -10,7 +10,9 @@ now in each of these steps we have to use a win api function not just risking th
 
 # how does it work 
 
-its pretty simple and i already explained it here https://github.com/B4shCr00k/DirectSysCalls so we just call the stub everytime we call an nt function and repeat until we complete all the steps 
+its pretty simple and i already explained it here https://github.com/B4shCr00k/DirectSysCalls 
+
+so we just call the stub everytime we call an nt function and repeat until we complete all the steps 
 
 i also included a simple xor encryption to bypass static avs like win defender 
 
