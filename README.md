@@ -1,5 +1,5 @@
 # He4vensG4te
-Process Injection Using direct syscalls only 
+Process Injection Using direct syscalls only bypasses win defender
 
 FOR EDUCATIONAL PURPOSES ONLY THIS CODE IS NOT MEANT TO BE WEPONIZED OR USED FOR MALICIOUS INTENTS
 # technique explanation
