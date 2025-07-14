@@ -6,7 +6,7 @@ FOR EDUCATIONAL PURPOSES ONLY THIS CODE IS NOT MEANT TO BE WEPONIZED OR USED FOR
 
 just like a normal process injection we first get a handle to the target process , allocate space inside it, write the shellcode then create a thread that executes the shellcode 
 
-now in each of these steps we have to use a win api function not just risking that some of these functions might be hooked by edrs but also this patters is so knows and any behavioral analysis will flag the malware so i wroked on my own version of the hellsgate technique to directly call the syscall instead of using high level win api functions
+now in each of these steps we have to use a win api function not just risking that some of these functions might be hooked by edrs but also this pattern is so known and any behavioral analysis will flag the malware so i wroked on my own version of the hellsgate technique to directly call the syscall instead of using high level win api functions
 
 # how does it work 
 
